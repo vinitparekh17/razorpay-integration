@@ -2,8 +2,8 @@ const express = require('express');
 const app = express();
 const Razorpay = require('razorpay');
 const instance = new Razorpay({
-    key_id: 'rzp_test_q4QHnH4gT1BKpW',
-    key_secret: 'EejgRd9vVTaHpGboEsHwmKHd'
+    key_id: 'RAZORPAY_ID',
+    key_secret: 'RAZORPAY_SECRET'
 })
 //id rzp_test_q4QHnH4gT1BKpW
 //secret EejgRd9vVTaHpGboEsHwmKHd 
